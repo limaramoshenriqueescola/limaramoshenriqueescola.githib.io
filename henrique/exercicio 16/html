@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 16</title>
+</head>
+<body>
+
+    <h1>Caixa d'Água</h1>
+
+    <p>Capacidade inicial: 150 litros</p>
+    <p>Perda por hora: 7 litros</p>
+
+    <button onclick="calcularAgua()">Calcular</button>
+
+    <h2>Resultado:</h2>
+
+    <p id="resultado"></p>
+
+    <script src="exercicio16.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 19</title>
+</head>
+<body>
+
+    <h1>Escada de Eco</h1>
+
+    <label>Quantidade de vezes:</label>
+
+    <input type="number" id="quantidade" min="1">
+
+    <button onclick="mostrarEco()">Mostrar Eco</button>
+
+    <h2>Resultado:</h2>
+
+    <div id="resultado"></div>
+
+    <script src="exercicio19.js"></script>
+
+</body>
+</html>

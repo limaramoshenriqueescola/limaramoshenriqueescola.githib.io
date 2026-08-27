@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 13</title>
+</head>
+<body>
+
+    <h1>Potência</h1>
+
+    <label>Número:</label>
+    <input type="number" id="numero">
+
+    <br><br>
+
+    <label>Expoente:</label>
+    <input type="number" id="expoente">
+
+    <br><br>
+
+    <button onclick="calcularPotencia()">Calcular</button>
+
+    <h2>Resultado:</h2>
+
+    <p id="resultado"></p>
+
+    <script src="exercicio13.js"></script>
+
+</body>
+</html>

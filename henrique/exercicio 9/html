@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 9</title>
+</head>
+<body>
+
+    <h1>Pontos de Gabriel</h1>
+
+    <p>Mariana: 18 pontos</p>
+    <p>Sabrina: 22 pontos</p>
+
+    <button onclick="calcularPontos()">Calcular</button>
+
+    <h2>Resultado:</h2>
+
+    <p id="resultado"></p>
+
+    <script src="exercicio09.js"></script>
+
+</body>
+</html>

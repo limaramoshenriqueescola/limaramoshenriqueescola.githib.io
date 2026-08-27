@@ -1,0 +1,42 @@
+function verificarProduto() {
+
+    let produto = document.getElementById("produto").value.trim();
+
+    if (produto.toLowerCase() === "sair") {
+
+        document.getElementById("resultado").innerText =
+            "Programa encerrado.";
+
+        return;
+    }
+
+    if (produto === "") {
+        document.getElementById("resultado").innerText =
+            "Digite o nome do produto.";
+        return;
+    }
+
+    let dataTexto = document.getElementById("validade").value;
+
+    if (dataTexto === "") {
+        document.getElementById("resultado").innerText =
+            "Digite a data de vencimento.";
+        return;
+    }
+
+    let validade = new Date(dataTexto + "T00:00:00");
+
+    let hoje = new Date();
+    hoje.setHours(0, 0, 0, 0);
+
+    if (validade < hoje) {
+
+        document.getElementById("resultado").innerText =
+            "O produto " + produto + " está vencido.";
+
+    } else {
+
+        document.getElementById("resultado").innerText =
+            "O produto " + produto + " não está vencido.";
+    }
+}

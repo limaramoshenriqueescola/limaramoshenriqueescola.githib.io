@@ -1,0 +1,25 @@
+function subirEscada() {
+
+    let tempo = 0;
+    let resultado = "";
+
+    for (let degrau = 1; degrau <= 20; degrau++) {
+
+        tempo += 3;
+
+        resultado +=
+            "Degrau " +
+            degrau +
+            ": " +
+            tempo +
+            " segundos<br>";
+    }
+
+    resultado +=
+        "<br><strong>Tempo total: " +
+        tempo +
+        " segundos</strong>";
+
+    document.getElementById("resultado").innerHTML =
+        resultado;
+}

@@ -1,0 +1,25 @@
+function verificarPrimo() {
+
+    let numero = Number(document.getElementById("numero").value);
+    let primo = true;
+
+    if (numero < 2) {
+        primo = false;
+    }
+
+    for (let i = 2; i < numero; i++) {
+
+        if (numero % i === 0) {
+            primo = false;
+            break;
+        }
+    }
+
+    if (primo) {
+        document.getElementById("resultado").innerText =
+            numero + " é um número primo.";
+    } else {
+        document.getElementById("resultado").innerText =
+            numero + " não é um número primo.";
+    }
+}

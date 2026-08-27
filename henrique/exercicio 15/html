@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 15</title>
+</head>
+<body>
+
+    <h1>Cofrinho</h1>
+
+    <p>
+        Dia 1 = R$ 2,00<br>
+        Dia 2 = R$ 4,00<br>
+        Dia 3 = R$ 6,00<br>
+        ...
+    </p>
+
+    <button onclick="calcularCofrinho()">Calcular</button>
+
+    <h2>Resultado:</h2>
+
+    <p id="resultado"></p>
+
+    <script src="exercicio15.js"></script>
+
+</body>
+</html>

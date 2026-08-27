@@ -1,0 +1,19 @@
+function calcularValor() {
+
+    let valorVenda = 360;
+
+    let valorOriginal =
+        valorVenda / 0.80;
+
+    let valorComLucro =
+        valorOriginal * 1.20;
+
+    document.getElementById("resultado").innerHTML =
+
+        "Valor original: R$ " +
+        valorOriginal.toFixed(2) +
+        "<br>" +
+
+        "Valor com 20% de lucro: R$ " +
+        valorComLucro.toFixed(2);
+}

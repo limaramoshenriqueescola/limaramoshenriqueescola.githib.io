@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 17</title>
+</head>
+<body>
+
+    <h1>Robô Subindo a Escada</h1>
+
+    <button onclick="subirEscada()">Iniciar</button>
+
+    <h2>Resultado:</h2>
+
+    <div id="resultado"></div>
+
+    <script src="exercicio17.js"></script>
+
+</body>
+</html>

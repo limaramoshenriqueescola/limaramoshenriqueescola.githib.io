@@ -1,0 +1,9 @@
+function converter() {
+
+    let pes = Number(document.getElementById("pes").value);
+
+    let metros = pes * 0.3048;
+
+    document.getElementById("resultado").innerText =
+        pes + " pés = " + metros.toFixed(2) + " metros.";
+}

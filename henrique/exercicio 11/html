@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 11</title>
+</head>
+<body>
+
+    <h1>Quadrado com Asteriscos</h1>
+
+    <label>Largura:</label>
+    <input type="number" id="largura">
+
+    <br><br>
+
+    <label>Altura:</label>
+    <input type="number" id="altura">
+
+    <br><br>
+
+    <button onclick="desenharQuadrado()">Desenhar</button>
+
+    <h2>Resultado:</h2>
+
+    <pre id="resultado"></pre>
+
+    <script src="exercicio11.js"></script>
+
+</body>
+</html>

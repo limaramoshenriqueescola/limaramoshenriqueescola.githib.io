@@ -1,0 +1,27 @@
+function fazerSwap() {
+
+    let primeiroNome = "Will";
+    let segundoNome = "Lucas";
+
+    let resultado = "";
+
+    for (let i = 1; i <= 6; i++) {
+
+        let temporario = primeiroNome;
+
+        primeiroNome = segundoNome;
+
+        segundoNome = temporario;
+
+        resultado +=
+            "Interação " + i +
+            ": primeiroNome = " +
+            primeiroNome +
+            " | segundoNome = " +
+            segundoNome +
+            "<br>";
+    }
+
+    document.getElementById("resultado").innerHTML =
+        resultado;
+}

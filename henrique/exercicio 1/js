@@ -1,0 +1,21 @@
+function mostrarImpares() {
+
+    let inicio = Number(document.getElementById("inicio").value);
+    let fim = Number(document.getElementById("fim").value);
+
+    let resultado = "";
+
+    if (inicio > fim) {
+        resultado = "O início não pode ser maior que o fim.";
+    } else {
+
+        for (let numero = inicio; numero <= fim; numero++) {
+
+            if (numero % 2 !== 0) {
+                resultado += numero + " ";
+            }
+        }
+    }
+
+    document.getElementById("resultado").innerText = resultado;
+}

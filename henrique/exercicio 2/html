@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 2</title>
+</head>
+<body>
+
+    <h1>Verificar Número Primo</h1>
+
+    <label>Digite um número:</label>
+    <input type="number" id="numero">
+
+    <button onclick="verificarPrimo()">Verificar</button>
+
+    <h2>Resultado:</h2>
+    <p id="resultado"></p>
+
+    <script src="exercicio02.js"></script>
+
+</body>
+</html>

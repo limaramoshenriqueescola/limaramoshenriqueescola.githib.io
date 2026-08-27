@@ -1,0 +1,15 @@
+function mostrarImpares() {
+
+    let resultado = "";
+
+    for (let numero = 100; numero >= 1; numero--) {
+
+        if (numero % 2 !== 0) {
+
+            resultado += numero + " ";
+        }
+    }
+
+    document.getElementById("resultado").innerText =
+        resultado;
+}

@@ -1,0 +1,34 @@
+function iniciarCorrida() {
+
+    let carro1 = 10;
+    let carro2 = 20;
+
+    let volta = 0;
+    let resultado = "";
+
+    while (carro1 <= carro2) {
+
+        volta++;
+
+        carro1 += 3;
+        carro2 += 1.5;
+
+        resultado +=
+            "Volta " + volta +
+            " - Carro 1: " + carro1.toFixed(1) +
+            " km/h | Carro 2: " +
+            carro2.toFixed(1) +
+            " km/h<br>";
+    }
+
+    resultado += "<br>";
+
+    resultado +=
+        "<strong>O carro 1 ultrapassou o carro 2 na volta " +
+        volta + ".</strong><br>";
+
+    resultado +=
+        "Total de voltas: " + volta;
+
+    document.getElementById("resultado").innerHTML = resultado;
+}

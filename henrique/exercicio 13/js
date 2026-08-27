@@ -1,0 +1,28 @@
+function calcularPotencia() {
+
+    let numero =
+        Number(document.getElementById("numero").value);
+
+    let expoente =
+        Number(document.getElementById("expoente").value);
+
+    let resultado = 1;
+
+    if (expoente < 0) {
+
+        document.getElementById("resultado").innerText =
+            "Digite um expoente maior ou igual a zero.";
+
+        return;
+    }
+
+    for (let i = 1; i <= expoente; i++) {
+
+        resultado *= numero;
+    }
+
+    document.getElementById("resultado").innerText =
+        numero + " elevado a " +
+        expoente + " = " +
+        resultado;
+}

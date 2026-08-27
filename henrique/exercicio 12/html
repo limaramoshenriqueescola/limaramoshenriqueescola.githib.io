@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 12</title>
+</head>
+<body>
+
+    <h1>Números de 0 até 1000</h1>
+
+    <button onclick="mostrarNumeros()">Mostrar</button>
+
+    <p id="resultado"></p>
+
+    <script src="exercicio12.js"></script>
+
+</body>
+</html>

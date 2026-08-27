@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 7</title>
+</head>
+<body>
+
+    <h1>Conversão de Pés para Metros</h1>
+
+    <label>Digite a altura em pés:</label>
+
+    <input type="number" id="pes" step="0.01">
+
+    <button onclick="converter()">Converter</button>
+
+    <h2>Resultado:</h2>
+
+    <p id="resultado"></p>
+
+    <script src="exercicio07.js"></script>
+
+</body>
+</html>

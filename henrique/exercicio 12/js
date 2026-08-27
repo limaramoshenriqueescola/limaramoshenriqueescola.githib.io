@@ -1,0 +1,12 @@
+function mostrarNumeros() {
+
+    let resultado = "";
+
+    for (let numero = 0; numero <= 1000; numero += 10) {
+
+        resultado += numero + " ";
+    }
+
+    document.getElementById("resultado").innerText =
+        resultado;
+}

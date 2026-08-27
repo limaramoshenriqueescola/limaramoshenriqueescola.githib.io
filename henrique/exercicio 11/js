@@ -1,0 +1,23 @@
+function desenharQuadrado() {
+
+    let largura =
+        Number(document.getElementById("largura").value);
+
+    let altura =
+        Number(document.getElementById("altura").value);
+
+    let resultado = "";
+
+    for (let linha = 1; linha <= altura; linha++) {
+
+        for (let coluna = 1; coluna <= largura; coluna++) {
+
+            resultado += "* ";
+        }
+
+        resultado += "\n";
+    }
+
+    document.getElementById("resultado").innerText =
+        resultado;
+}

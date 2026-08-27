@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 5</title>
+</head>
+<body>
+
+    <h1>Corrida entre dois carros</h1>
+
+    <button onclick="iniciarCorrida()">Iniciar corrida</button>
+
+    <h2>Resultado:</h2>
+
+    <div id="resultado"></div>
+
+    <script src="exercicio05.js"></script>
+
+</body>
+</html>

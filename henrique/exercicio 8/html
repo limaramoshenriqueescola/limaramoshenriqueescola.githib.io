@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 8</title>
+</head>
+<body>
+
+    <h1>Valor do Violão</h1>
+
+    <p>
+        O violão foi vendido por R$ 360,00,
+        que correspondia a 80% do valor.
+    </p>
+
+    <button onclick="calcularValor()">Calcular</button>
+
+    <h2>Resultado:</h2>
+
+    <p id="resultado"></p>
+
+    <script src="exercicio08.js"></script>
+
+</body>
+</html>

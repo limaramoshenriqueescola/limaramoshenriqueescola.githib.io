@@ -1,0 +1,15 @@
+function calcularCofrinho() {
+
+    let total = 0;
+
+    for (let dia = 1; dia <= 12; dia++) {
+
+        let deposito = dia * 2;
+
+        total += deposito;
+    }
+
+    document.getElementById("resultado").innerText =
+        "Após 12 dias, o total acumulado é R$ " +
+        total.toFixed(2);
+}

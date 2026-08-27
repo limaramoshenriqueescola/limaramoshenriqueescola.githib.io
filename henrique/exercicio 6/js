@@ -1,0 +1,41 @@
+function calcularCapacidade() {
+
+    let altura = 145;
+    let baseMaior = 120;
+    let baseMenor = 75;
+
+    let areaTrapezio =
+        ((baseMaior + baseMenor) / 2) * altura;
+
+    let larguraPalco = 15;
+    let alturaPalco = 8.5;
+
+    let areaPalco =
+        larguraPalco * alturaPalco;
+
+    let areaPublico =
+        areaTrapezio - areaPalco;
+
+    let pessoasPorMetro = 4;
+
+    let ingressos =
+        Math.floor(areaPublico * pessoasPorMetro);
+
+    document.getElementById("resultado").innerHTML =
+
+        "Área do trapézio: " +
+        areaTrapezio.toFixed(2) +
+        " m²<br>" +
+
+        "Área do palco: " +
+        areaPalco.toFixed(2) +
+        " m²<br>" +
+
+        "Área disponível para o público: " +
+        areaPublico.toFixed(2) +
+        " m²<br><br>" +
+
+        "<strong>Quantidade máxima de ingressos: " +
+        ingressos +
+        "</strong>";
+}

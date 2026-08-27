@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 10</title>
+</head>
+<body>
+
+    <h1>Swap de Nomes</h1>
+
+    <button onclick="fazerSwap()">Executar</button>
+
+    <h2>Resultado:</h2>
+
+    <div id="resultado"></div>
+
+    <script src="exercicio10.js"></script>
+
+</body>
+</html>
