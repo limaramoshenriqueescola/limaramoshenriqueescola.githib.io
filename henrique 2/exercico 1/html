@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 1</title>
+</head>
+<body>
+
+    <h1>Cadastro de Times</h1>
+
+    <input type="text" id="time" placeholder="Digite o nome do time">
+
+    <button onclick="cadastrarTime()">Cadastrar</button>
+
+    <p id="contador">0/10 times cadastrados</p>
+
+    <h2>Times:</h2>
+
+    <div id="resultado"></div>
+
+    <script src="exercicio01.js"></script>
+
+</body>
+</html>
+```

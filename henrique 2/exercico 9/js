@@ -1,0 +1,41 @@
+let array1 = [
+    10, 20, 30, 40, 50,
+    60, 70, 80, 90, 100
+];
+
+let array2 = [
+    5, 15, 25, 40, 55,
+    65, 70, 85, 95, 100
+];
+
+function encontrarIguais() {
+
+    let iguais = [];
+
+    for (let i = 0; i < array1.length; i++) {
+
+        for (let j = 0; j < array2.length; j++) {
+
+            if (array1[i] === array2[j]) {
+
+                if (!iguais.includes(array1[i])) {
+
+                    iguais.push(array1[i]);
+                }
+            }
+        }
+    }
+
+    document.getElementById("resultado").innerHTML =
+
+        "Array 1: " +
+        array1.join(", ") +
+        "<br><br>" +
+
+        "Array 2: " +
+        array2.join(", ") +
+        "<br><br>" +
+
+        "<strong>Números que aparecem nos dois:</strong><br>" +
+        iguais.join(", ");
+}

@@ -1,0 +1,26 @@
+let notas = [8, 7.5, 9, 6.5];
+
+function mostrarNotas() {
+
+    let soma = 0;
+
+    let resultado = "";
+
+    for (let i = 0; i < notas.length; i++) {
+
+        soma += notas[i];
+
+        resultado +=
+            "Nota " + (i + 1) +
+            ": " + notas[i] +
+            "<br>";
+    }
+
+    let media = soma / notas.length;
+
+    resultado +=
+        "<br>Média: " + media.toFixed(2);
+
+    document.getElementById("resultado").innerHTML =
+        resultado;
+}

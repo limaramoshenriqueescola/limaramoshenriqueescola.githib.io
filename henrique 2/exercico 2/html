@@ -1,0 +1,20 @@
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 2</title>
+</head>
+<body>
+
+    <h1>Animais Favoritos</h1>
+
+    <button onclick="mostrarAnimais()">Mostrar animais</button>
+
+    <div id="resultado"></div>
+
+    <script src="exercicio02.js"></script>
+
+</body>
+</html>
+```

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 9</title>
+</head>
+<body>
+
+    <h1>Números Iguais</h1>
+
+    <button onclick="encontrarIguais()">Encontrar números</button>
+
+    <div id="resultado"></div>
+
+    <script src="exercicio09.js"></script>
+
+</body>
+</html>

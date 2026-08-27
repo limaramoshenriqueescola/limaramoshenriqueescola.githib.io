@@ -1,0 +1,55 @@
+let carros = [
+    {
+        marca: "Toyota",
+        modelos: ["Corolla", "Yaris", "Hilux"]
+    },
+    {
+        marca: "Volkswagen",
+        modelos: ["Golf", "Polo", "T-Cross"]
+    },
+    {
+        marca: "Chevrolet",
+        modelos: ["Onix", "Tracker", "S10"]
+    },
+    {
+        marca: "Honda",
+        modelos: ["Civic", "City", "HR-V"]
+    }
+];
+
+let tabela = document.getElementById("tabela");
+
+for (let i = 0; i < carros.length; i++) {
+
+    for (let j = 0; j < carros[i].modelos.length; j++) {
+
+        let linha = document.createElement("tr");
+
+        let colunaMarca = document.createElement("td");
+        let colunaModelo = document.createElement("td");
+
+        colunaMarca.innerText = carros[i].marca;
+        colunaModelo.innerText = carros[i].modelos[j];
+
+        linha.appendChild(colunaMarca);
+        linha.appendChild(colunaModelo);
+
+        tabela.appendChild(linha);
+    }
+
+    if (i < carros.length - 1) {
+
+        let linhaSeparadora = document.createElement("tr");
+
+        let colunaSeparadora = document.createElement("td");
+
+        colunaSeparadora.colSpan = 2;
+
+        let hr = document.createElement("hr");
+
+        colunaSeparadora.appendChild(hr);
+        linhaSeparadora.appendChild(colunaSeparadora);
+
+        tabela.appendChild(linhaSeparadora);
+    }
+}

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 8</title>
+</head>
+<body>
+
+    <h1>Remover Números Repetidos</h1>
+
+    <button onclick="removerRepetidos()">Mostrar</button>
+
+    <div id="resultado"></div>
+
+    <script src="exercicio08.js"></script>
+
+</body>
+</html>

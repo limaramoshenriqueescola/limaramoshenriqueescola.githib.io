@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 7</title>
+</head>
+<body>
+
+    <h1>Ordem Decrescente</h1>
+
+    <button onclick="mostrarDecrescente()">Mostrar</button>
+
+    <p id="resultado"></p>
+
+    <script src="exercicio07.js"></script>
+
+</body>
+</html>

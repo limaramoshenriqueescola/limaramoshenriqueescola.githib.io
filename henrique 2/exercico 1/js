@@ -1,0 +1,38 @@
+let times = [];
+
+function cadastrarTime() {
+
+    let campo = document.getElementById("time");
+    let nome = campo.value.trim();
+
+    if (nome === "") {
+        alert("Digite o nome do time.");
+        return;
+    }
+
+    if (times.length >= 10) {
+        alert("Você já cadastrou 10 times.");
+        return;
+    }
+
+    times.push(nome);
+
+    campo.value = "";
+
+    mostrarTimes();
+}
+
+function mostrarTimes() {
+
+    let resultado = "";
+
+    for (let i = 0; i < times.length; i++) {
+        resultado += (i + 1) + " - " + times[i] + "<br>";
+    }
+
+    document.getElementById("resultado").innerHTML = resultado;
+
+    document.getElementById("contador").innerText =
+        times.length + "/10 times cadastrados";
+}
+```

@@ -1,0 +1,18 @@
+let animais = [
+    "Cachorro",
+    "Gato",
+    "Leão",
+    "Cavalo",
+    "Golfinho"
+];
+
+function mostrarAnimais() {
+
+    let resultado = "";
+
+    for (let i = 0; i < animais.length; i++) {
+        resultado += (i + 1) + " - " + animais[i] + "<br>";
+    }
+
+    document.getElementById("resultado").innerHTML = resultado;
+}

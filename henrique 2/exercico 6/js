@@ -1,0 +1,33 @@
+let limpeza = [
+    "Detergente",
+    "Sabão em pó",
+    "Desinfetante",
+    "Água sanitária",
+    "Esponja"
+];
+
+let alimentacao = [
+    "Arroz",
+    "Feijão",
+    "Macarrão",
+    "Leite",
+    "Pão"
+];
+
+let tabela = document.getElementById("tabela");
+
+for (let i = 0; i < 5; i++) {
+
+    let linha = document.createElement("tr");
+
+    let colunaLimpeza = document.createElement("td");
+    let colunaAlimentacao = document.createElement("td");
+
+    colunaLimpeza.innerText = limpeza[i];
+    colunaAlimentacao.innerText = alimentacao[i];
+
+    linha.appendChild(colunaLimpeza);
+    linha.appendChild(colunaAlimentacao);
+
+    tabela.appendChild(linha);
+}

@@ -1,0 +1,14 @@
+let numeros = [10, 25, 40, 80];
+
+function mostrarDecrescente() {
+
+    let resultado = "";
+
+    for (let i = numeros.length - 1; i >= 0; i--) {
+
+        resultado += numeros[i] + " ";
+    }
+
+    document.getElementById("resultado").innerText =
+        resultado;
+}

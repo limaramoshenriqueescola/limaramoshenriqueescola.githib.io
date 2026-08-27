@@ -1,0 +1,14 @@
+let impares = [];
+
+for (let numero = 0; numero <= 200; numero++) {
+
+    if (numero % 2 !== 0) {
+        impares.push(numero);
+    }
+}
+
+function mostrarImpares() {
+
+    document.getElementById("resultado").innerText =
+        impares.join(" ");
+}

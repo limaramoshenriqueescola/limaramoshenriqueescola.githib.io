@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 4</title>
+</head>
+<body>
+
+    <h1>Modelos de Carros</h1>
+
+    <table border="1" id="tabela">
+        <tr>
+            <th>Marca</th>
+            <th>Modelo</th>
+        </tr>
+    </table>
+
+    <script src="exercicio04.js"></script>
+
+</body>
+</html>
